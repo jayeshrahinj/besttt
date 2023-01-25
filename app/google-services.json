@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "303851347579",
+    "project_id": "bestbuyy-f0136",
+    "storage_bucket": "bestbuyy-f0136.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303851347579:android:0d29550e03e16fcd6b4cde",
+        "android_client_info": {
+          "package_name": "com.example.bestbuyy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303851347579-tbkr8455n8cm6igdoj8ll7khe964vadf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv_C5lpMIRl55sW4SAqBq56C_L_L3p8wk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303851347579-tbkr8455n8cm6igdoj8ll7khe964vadf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

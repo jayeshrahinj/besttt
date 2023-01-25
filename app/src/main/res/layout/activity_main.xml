@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#EEF2DD1E"
+    android:orientation="vertical"
+    android:padding="18dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="REGISTRATION"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="320dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Full Name"
+        android:padding="20dp"
+        android:textColor="#0D0C0C"
+        android:textColorHint="#070707" />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="320dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Mobile Number"
+        android:padding="20dp"
+        android:inputType="number"
+        android:textColor="#0D0C0C"
+        android:textColorHint="#090808" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="320dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Email"
+        android:padding="12dp"
+        android:textColor="#0D0C0C"
+        android:textColorHint="#0B0A0A" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="320dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColor="#070707"
+        android:textColorHint="#070606" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Sign up" />
+
+    <TextView
+        android:id="@+id/gotologinActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="62dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944"
+        app:srcCompat="@drawable/logo1" />
+
+    <LinearLayout
+        android:layout_width="307dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="58dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/f" />
+
+        <ImageView
+            android:id="@+id/google"
+            android:layout_width="82dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/g" />
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="59dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/t" />
+    </LinearLayout>
+
+
+</LinearLayout>
