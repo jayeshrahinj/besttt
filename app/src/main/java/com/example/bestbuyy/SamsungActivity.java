@@ -10,21 +10,18 @@ import android.view.View;
 import android.widget.Button;
 
 public class SamsungActivity extends AppCompatActivity {
-// Button button;
+ Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_samsung);
-//        button.findViewById(R.id.buynow);
 
-//        button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                String url = "https://www.amazon.in/Samsung-Storage-Adapter-Purchased-Separately/dp/B0BS18R6C8/ref=sr_1_1?hvadid=72155555501077&hvbmt=be&hvdev=c&hvqmt=e&keywords=samsung+a14&qid=1675406884&sr=8-1";
-//                Intent i = new Intent(Intent.ACTION_VIEW);
-//                i.setData(Uri.parse(url));
 
-            }
-//        }); }
+    }
+    public void browser(View view)
+    {
+        Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.amazon.in/Samsung-Storage-Adapter-Purchased-Separately/dp/B0BS181R59/ref=asc_df_B0BS181R59/?tag=googleshopdes-21&linkCode=df0&hvadid=619684970763&hvpos=&hvnetw=g&hvrand=12453751497242434255&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007796&hvtargid=pla-1946090779419&psc=1"));
+        startActivity(intent);
+    }
 }

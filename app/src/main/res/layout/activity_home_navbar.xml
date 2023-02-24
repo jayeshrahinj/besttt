@@ -7,6 +7,10 @@
     android:background="@drawable/shape2"
     android:hapticFeedbackEnabled="false"
     tools:context=".home_Navbar_Activity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frameLayout"/>
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottom"
@@ -18,12 +22,13 @@
         app:fabCradleMargin="15dp">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottomnavview"
+            android:id="@+id/bview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
             android:background="@drawable/transparent_background"
-            app:menu="@menu/bottom_nav" />
+            app:menu="@menu/bottom_nav"
+            />
 
     </com.google.android.material.bottomappbar.BottomAppBar>
 

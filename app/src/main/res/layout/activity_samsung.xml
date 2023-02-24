@@ -170,17 +170,9 @@
         android:layout_height="58dp"
         android:layout_gravity="center"
         android:layout_marginTop="3dp"
+        android:onClick="browser"
         android:layout_marginBottom="12dp"
-        android:autoLink="web"
-        android:clickable="true"
-        android:cursorVisible="true"
-        android:linksClickable="true"
-        android:onClick="goToSo"
-        android:text="Buy Now"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.268"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:text="Buy Now"/>
 
 
 </LinearLayout>
