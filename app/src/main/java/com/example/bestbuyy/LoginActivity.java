@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.bestbuyy.databinding.ActivityLoginBinding;
@@ -35,13 +36,15 @@ public class LoginActivity extends AppCompatActivity {
     ActivityLoginBinding binding;
     FirebaseAuth firebaseAuth;
     ProgressDialog progressDialog;
-
+    TextView logout;
+ public  LoginActivity loginActivity;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityLoginBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 //        btngoogle.findViewById(R.id.btngoogle);
+        logout = findViewById(R.id.logout);
         firebaseAuth=FirebaseAuth.getInstance();
         progressDialog = new ProgressDialog(this);
         binding.login.setOnClickListener(new View.OnClickListener() {
@@ -103,7 +106,9 @@ public class LoginActivity extends AppCompatActivity {
         });
 
 
+
     }
+
 
 //    @Override
 //    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {

@@ -20,22 +20,43 @@
         android:background="#E8E3E3"
         app:backgroundTint="#D79FAA"
         app:fabCradleMargin="15dp">
+        <ImageView
+            android:id="@+id/homebtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/transparent_background"
-            app:menu="@menu/bottom_nav"
+            android:layout_marginLeft="30dp"
+
+            android:src="@drawable/ic_baseline_home_24"/>
+        <ImageView
+            android:id="@+id/cartbtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/ic_baseline_shopping_cart_24"
             />
+        <ImageView
+            android:id="@+id/comparebtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/ic_baseline_add_24"/>
+        <ImageView
+            android:id="@+id/profilebtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/ic_baseline_person_24"/>
+
+
 
     </com.google.android.material.bottomappbar.BottomAppBar>
 
 
+
     <EditText
         android:id="@+id/search"
-        android:layout_width="301dp"
+        android:layout_width="401dp"
         android:layout_height="58dp"
         android:layout_margin="2dp"
         android:background="#EAF0F2"
@@ -64,7 +85,7 @@
             android:fontFamily="@font/autour_one"
             android:text="Popular Product"
             android:textAlignment="viewStart"
-            android:textColor="#FBE812"
+            android:textColor="#FF8A80"
             android:textSize="12sp"
             android:textStyle="bold" />
 
@@ -189,13 +210,13 @@
             android:fontFamily="@font/autour_one"
             android:text="Category"
             android:textAlignment="viewStart"
-            android:textColor="#FBE812"
+            android:textColor="#FF8A80"
             android:textSize="12sp"
             android:textStyle="bold" />
 
         <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="390dp"
+            android:layout_height="337dp"
             android:layout_marginTop="5dp">
 
             <TableRow
@@ -398,13 +419,7 @@
 
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="53dp"
-        android:layout_height="49dp"
-        android:layout_gravity="right|top"
-        android:layout_marginTop="4dp"
-        app:srcCompat="@drawable/ic_baseline_shopping_cart_24" />
+
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

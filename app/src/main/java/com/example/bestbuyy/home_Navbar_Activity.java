@@ -1,15 +1,18 @@
 package com.example.bestbuyy;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.view.menu.MenuView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 
+import android.view.Menu;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -20,10 +23,11 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 
 public class home_Navbar_Activity extends AppCompatActivity {
-
+    Menu menu;
+    MenuView.ItemView itemView;
     ImageView phone;
     ImageView earphone;
-    ImageView ac;
+    ImageView ac,profilebtn,homebtn;
     BottomNavigationView bottomNavigationView;
     
 
@@ -37,7 +41,9 @@ public class home_Navbar_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_navbar);
         search = findViewById(R.id.search);
-        bottomNavigationView = findViewById(R.id.bview);
+        itemView = findViewById(R.id.personfrag);
+        profilebtn = findViewById(R.id.profilebtn);
+        homebtn = findViewById(R.id.homebtn);
         p1 = findViewById(R.id.p1);
         p2 = findViewById(R.id.p2);
         p4 = findViewById(R.id.p4);
@@ -101,32 +107,31 @@ public class home_Navbar_Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        camera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(home_Navbar_Activity.this,cameraActivity.class)
+                        ;
+                startActivity(intent);
+            }
+        });
+        profilebtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(home_Navbar_Activity.this,profileActivity.class)
+                        ;
+                startActivity(intent);
+            }
+        });
+        homebtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(home_Navbar_Activity.this,home_Navbar_Activity.class)
+                        ;
+                startActivity(intent);
+            }
+        });
 
-//        home_Navbar_Activity binding = null;
-//        binding.bottomNavigationView.setBackground(null);
-//
-//        binding.bottomNavigationView.setOnItemSelectedListener(item -> {
-//            switch (item.getItemId())
-//            {
-//                case R.id.homefrag:
-//                    replaceFragment(new profileFragment());
-//                    break;
-//                case R.id.settingfrag:
-//                    replaceFragment(new profileFragment());
-//                    break;
-//                case R.id.addfrag:
-//                        replaceFragment(new profileFragment());
-//                break;
-//                case R.id.personfrag:
-//                replaceFragment(new profileFragment());
-//                break;
-//                case R.id.Searchfrag:
-//                    replaceFragment(new profileFragment());
-//                    break;
-//
-//            }
-//return true;
-//        });
 
 //
 //
@@ -161,6 +166,14 @@ public class home_Navbar_Activity extends AppCompatActivity {
 
 
     }
+//    public  void  getactivity( View view)
+//    {
+//
+//          Intent intent = new Intent(home_Navbar_Activity.this,profileActivity.class);
+//            startActivity(intent);
+//        }
+
+
 
 //    private void replaceFragment(Fragment fragment) {
 //        FragmentManager fragmentManager = getSupportFragmentManager();
