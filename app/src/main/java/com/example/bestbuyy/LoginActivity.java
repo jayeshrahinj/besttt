@@ -28,6 +28,7 @@ import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
 public class LoginActivity extends AppCompatActivity {
@@ -35,9 +36,17 @@ public class LoginActivity extends AppCompatActivity {
 //   public GoogleSignInClient client;
     ActivityLoginBinding binding;
     FirebaseAuth firebaseAuth;
+    FirebaseUser firebaseUser;
     ProgressDialog progressDialog;
     TextView logout;
  public  LoginActivity loginActivity;
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        firebaseUser =FirebaseAuth.getInstance().getCurrentUser();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +56,7 @@ public class LoginActivity extends AppCompatActivity {
         logout = findViewById(R.id.logout);
         firebaseAuth=FirebaseAuth.getInstance();
         progressDialog = new ProgressDialog(this);
+
         binding.login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

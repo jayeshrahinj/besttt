@@ -1,5 +1,6 @@
 package com.example.bestbuyy;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.view.menu.MenuView;
 import androidx.fragment.app.Fragment;
@@ -13,21 +14,27 @@ import android.os.Bundle;
 
 
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 
 import com.example.bestbuyy.databinding.ActivityMainBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 
 public class home_Navbar_Activity extends AppCompatActivity {
     Menu menu;
     MenuView.ItemView itemView;
     ImageView phone;
+    FirebaseUser firebaseUser;
     ImageView earphone;
     ImageView ac,profilebtn,homebtn;
+
     BottomNavigationView bottomNavigationView;
     
 
@@ -35,11 +42,23 @@ public class home_Navbar_Activity extends AppCompatActivity {
             ImageView p1,p2,p4;
 //    String api ="http://price-api.datayuge.com/register";
    TextView search;
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+    }
+
+
+
+
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_navbar);
+
         search = findViewById(R.id.search);
         itemView = findViewById(R.id.personfrag);
         profilebtn = findViewById(R.id.profilebtn);
@@ -133,6 +152,8 @@ public class home_Navbar_Activity extends AppCompatActivity {
         });
 
 
+
+
 //
 //
 
@@ -166,6 +187,8 @@ public class home_Navbar_Activity extends AppCompatActivity {
 
 
     }
+
+
 //    public  void  getactivity( View view)
 //    {
 //
