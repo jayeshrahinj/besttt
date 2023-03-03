@@ -16,7 +16,7 @@
 
             <TextView
                 android:layout_gravity="center"
-                android:text="AC"
+                android:text="Phones"
 
                 android:textColor="@color/white"
                 android:textSize="30dp"
@@ -34,7 +34,7 @@
                     android:layout_height="120dp"
                     android:layout_marginBottom="5dp"
                     android:layout_marginLeft="6dp"
-                    android:src="@drawable/ac"/>
+                    android:src="@drawable/mobile"/>
 
             </LinearLayout>
 
@@ -52,7 +52,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:textSize="12dp"
-                    android:text="Blue Star 1.5 Ton 3 Star Convertible 4 in 1 Cooling Inverter Split AC (Copper, Multi Sensors, Stabalizer Free"
+                    android:text="Apple iPhone 14 pro 128GB (Product) RED                            "
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -68,7 +68,7 @@
                         android:layout_margin="5dp"
 
 
-                        android:text=" ₹69,990"
+                        android:text=" ₹699"
                         android:textColor="@color/black"
                         android:textSize="20dp">
 
@@ -81,7 +81,33 @@
                         android:layout_marginLeft="10dp"
                         android:text="Buy now" />
                 </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
 
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+
+                        android:src="@drawable/ic_baseline_star_24" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+
+
+
+                </LinearLayout>
             </LinearLayout>
 
         </TableRow>
@@ -98,7 +124,7 @@
                     android:layout_height="120dp"
                     android:layout_marginBottom="5dp"
                     android:layout_marginLeft="6dp"
-                    android:src="@drawable/ac1" />
+                    android:src="@drawable/phone1" />
 
             </LinearLayout>
 
@@ -116,7 +142,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:textSize="12dp"
-                    android:text="Daikin 1.5 Ton 3 Star Inverter Split AC (Copper, PM 2.5 Filter, Triple Display, Dew Clean Technology"
+                    android:text="Apple iPhone 12 (256GB) - White                                              "
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -162,7 +188,7 @@
                     android:layout_height="120dp"
                     android:layout_marginBottom="5dp"
                     android:layout_marginLeft="6dp"
-                    android:src="@drawable/ac2"/>
+                    android:src="@drawable/phone2"/>
 
             </LinearLayout>
 
@@ -182,8 +208,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:textSize="12dp"
-                    android:text="Lloyd 1.5 Ton 3 Star Inverter Split AC (5 in 1 Convertible, Copper, Anti-Viral + PM 2.5 Filter, 2023 Model, White"
-
+                    android:text="Apple iPhone 14 Pro Max 256GB Gold                             "
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -249,7 +274,7 @@
                     android:layout_height="120dp"
                     android:layout_marginBottom="5dp"
                     android:layout_marginLeft="6dp"
-                    android:src="@drawable/ac3" />
+                    android:src="@drawable/phone3" />
 
             </LinearLayout>
 
@@ -268,7 +293,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:textSize="12dp"
-                    android:text="LG 1.5 Ton 3 Star AI DUAL Inverter Split AC (Copper, Super Convertible 6-in-1 Cooling, HD Filter with Anti-Virus"
+                    android:text="Apple iPhone 14 Pro 256GB Space Black                         "
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -333,7 +358,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_marginLeft="6dp"
                     android:layout_height="120dp"
-                    android:src="@drawable/ac4"/>
+                    android:src="@drawable/realme"/>
 
             </LinearLayout>
 
@@ -352,7 +377,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:textSize="12dp"
-                    android:text="Panasonic 1.5 Ton 5 Star Wi-Fi Inverter Smart Split AC (Copper Condenser, 7 in 1 Convertible with additional "
+                    android:text="Apple iPhone 14 Pro Max 256GB Gold                                  "
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -421,7 +446,7 @@
                     android:layout_height="120dp"
                     android:layout_marginBottom="5dp"
                     android:layout_marginLeft="6dp"
-                    android:src="@drawable/ac6"/>
+                    android:src="@drawable/camera"/>
 
             </LinearLayout>
 
@@ -440,7 +465,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:textSize="12dp"
-                    android:text="Panasonic 1.5 Ton 5 Star Wi-Fi Inverter Smart Split AC (Copper Condenser, 7 in 1 Convertible with additional "
+                    android:text="realme narzo 50i Prime (Dark Blue 3 GB RAM +32 GB Storage) Octa-core Processor | 5000 mAh Battery"
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -473,73 +498,6 @@
             </LinearLayout>
 
         </TableRow>
-
-
-        <TableRow>
-            <LinearLayout
-                android:layout_width="100dp"
-                android:layout_height="120dp"
-                android:background="@drawable/shape3"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="120dp"
-                    android:layout_marginBottom="5dp"
-                    android:layout_marginLeft="6dp"
-                    android:src="@drawable/ac7"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="280dp"
-                android:layout_height="120dp"
-                android:layout_gravity="right|top"
-                android:background="@drawable/shape3"
-                android:orientation="vertical"
-                >
-
-
-                <TextView
-                    android:id="@+id/product_name"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
-                    android:textSize="12dp"
-                    android:text="Daikin 1.5 Ton 5 Star Inverter Split AC (Copper, PM 2.5 Filter, 2022 Model, MTKM50U, White)"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-
-
-                        android:text="₹69,000"
-                        android:textColor="@color/black"
-                        android:textSize="20dp">
-
-
-                    </TextView>
-
-                    <Button
-                        android:layout_width="140dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="Buy now" />
-                </LinearLayout>
-
-            </LinearLayout>
-
-        </TableRow>
-
 
 
 

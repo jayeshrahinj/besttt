@@ -62,7 +62,7 @@
         android:background="#EAF0F2"
         android:drawableLeft="@drawable/ic_baseline_search_24"
         android:drawablePadding="10dp"
-        android:fontFamily="@font/autour_one"
+
         android:text="Search"
         android:textAlignment="gravity"
         android:textColor="#121111"
@@ -82,7 +82,7 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/autour_one"
+
             android:text="Popular Product"
             android:textAlignment="viewStart"
             android:textColor="#FF8A80"
@@ -136,7 +136,7 @@
                     android:id="@+id/t1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:fontFamily="@font/autour_one"
+
                     android:text="Samsung A14"
                     android:textAlignment="center" />
 
@@ -144,7 +144,7 @@
                     android:id="@+id/t2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+
                     android:text="Realme 7"
                     android:textAlignment="center" />
 
@@ -153,7 +153,7 @@
                     android:id="@+id/t4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+
                     android:text="Oneplus CE2"
                     android:textAlignment="center" />
 
@@ -167,7 +167,7 @@
                     android:id="@+id/tt1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+
                     android:text="Rs-16999"
                     android:textAlignment="center"
                     android:textColor="#FF1744" />
@@ -176,7 +176,7 @@
                     android:id="@+id/tt2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+
                     android:text="Rs-14999"
                     android:textAlignment="center"
                     android:textColor="#FF1744" />
@@ -186,7 +186,7 @@
                     android:id="@+id/tt3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+
                     android:text="RS-19499"
                     android:textAlignment="center"
                     android:textColor="#FF1744" />
@@ -207,7 +207,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/autour_one"
+
             android:text="Category"
             android:textAlignment="viewStart"
             android:textColor="#FF8A80"
@@ -261,7 +261,7 @@
                     android:id="@+id/text1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+
                     android:text="Phones"
                     android:textAlignment="center" />
 
@@ -269,7 +269,7 @@
                     android:id="@+id/text2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+
                     android:text="Camera"
                     android:textAlignment="center" />
 
@@ -277,7 +277,7 @@
                     android:id="@+id/text3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+
                     android:text="Laptop"
                     android:textAlignment="center" />
 
@@ -326,7 +326,7 @@
                     android:id="@+id/text4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+
                     android:text="Earphones"
                     android:textAlignment="center" />
 
@@ -334,7 +334,7 @@
                     android:id="@+id/text5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+
                     android:text="TV"
                     android:textAlignment="center" />
 
@@ -342,7 +342,7 @@
                     android:id="@+id/text6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+
                     android:text="Tablet"
                     android:textAlignment="center" />
 
@@ -391,7 +391,7 @@
                     android:id="@+id/text7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+
                     android:text="AC"
                     android:textAlignment="center" />
 
@@ -399,7 +399,7 @@
                     android:id="@+id/text8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+
                     android:text="Refrigerator"
                     android:textAlignment="center" />
 
@@ -407,7 +407,7 @@
                     android:id="@+id/text9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/autour_one"
+
                     android:text="Microwave"
                     android:textAlignment="center" />
 

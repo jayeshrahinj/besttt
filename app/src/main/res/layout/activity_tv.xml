@@ -16,8 +16,7 @@
 
             <TextView
                 android:layout_gravity="center"
-                android:text="AC"
-
+                android:text="TV"
                 android:textColor="@color/white"
                 android:textSize="30dp"
                 android:textStyle="bold" />
@@ -34,7 +33,7 @@
                     android:layout_height="120dp"
                     android:layout_marginBottom="5dp"
                     android:layout_marginLeft="6dp"
-                    android:src="@drawable/ac"/>
+                    android:src="@drawable/tv"/>
 
             </LinearLayout>
 
@@ -52,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:textSize="12dp"
-                    android:text="Blue Star 1.5 Ton 3 Star Convertible 4 in 1 Cooling Inverter Split AC (Copper, Multi Sensors, Stabalizer Free"
+                    android:text="VU 139 cm (55 inches) The GloLED Series 4K Smart LED Google TV 55GloLED (Grey)"
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -68,7 +67,7 @@
                         android:layout_margin="5dp"
 
 
-                        android:text=" ₹69,990"
+                        android:text=" ₹56,990"
                         android:textColor="@color/black"
                         android:textSize="20dp">
 
@@ -81,7 +80,33 @@
                         android:layout_marginLeft="10dp"
                         android:text="Buy now" />
                 </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
 
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+
+                        android:src="@drawable/ic_baseline_star_24" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+
+
+
+                </LinearLayout>
             </LinearLayout>
 
         </TableRow>
@@ -98,7 +123,7 @@
                     android:layout_height="120dp"
                     android:layout_marginBottom="5dp"
                     android:layout_marginLeft="6dp"
-                    android:src="@drawable/ac1" />
+                    android:src="@drawable/tv1" />
 
             </LinearLayout>
 
@@ -116,7 +141,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:textSize="12dp"
-                    android:text="Daikin 1.5 Ton 3 Star Inverter Split AC (Copper, PM 2.5 Filter, Triple Display, Dew Clean Technology"
+                    android:text="Kodak 139 cm (55 inches) Matrix Series 4K Ultra HD Smart QLED Google TV 55MT5022 (Black)"
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -145,7 +170,28 @@
                         android:layout_marginLeft="10dp"
                         android:text="Buy now" />
                 </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_half_24"/>
 
+                </LinearLayout>
             </LinearLayout>
 
         </TableRow>
@@ -162,7 +208,7 @@
                     android:layout_height="120dp"
                     android:layout_marginBottom="5dp"
                     android:layout_marginLeft="6dp"
-                    android:src="@drawable/ac2"/>
+                    android:src="@drawable/tv2"/>
 
             </LinearLayout>
 
@@ -182,8 +228,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:textSize="12dp"
-                    android:text="Lloyd 1.5 Ton 3 Star Inverter Split AC (5 in 1 Convertible, Copper, Anti-Viral + PM 2.5 Filter, 2023 Model, White"
-
+                    android:text="OnePlus 138 cm (55 inches) Y Series 4K Ultra HD Smart Android LED TV 55Y1S Pro (Black)"
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -249,7 +294,7 @@
                     android:layout_height="120dp"
                     android:layout_marginBottom="5dp"
                     android:layout_marginLeft="6dp"
-                    android:src="@drawable/ac3" />
+                    android:src="@drawable/tv3" />
 
             </LinearLayout>
 
@@ -268,7 +313,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:textSize="12dp"
-                    android:text="LG 1.5 Ton 3 Star AI DUAL Inverter Split AC (Copper, Super Convertible 6-in-1 Cooling, HD Filter with Anti-Virus"
+                    android:text="Sony Bravia 139 cm (55 inches) 4K Ultra HD Smart LED Google TV KD-55X74K (Black)"
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -333,7 +378,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_marginLeft="6dp"
                     android:layout_height="120dp"
-                    android:src="@drawable/ac4"/>
+                    android:src="@drawable/tv4"/>
 
             </LinearLayout>
 
@@ -352,7 +397,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:textSize="12dp"
-                    android:text="Panasonic 1.5 Ton 5 Star Wi-Fi Inverter Smart Split AC (Copper Condenser, 7 in 1 Convertible with additional "
+                    android:text="Samsung 138 cm (55 inches) Crystal 4K Neo Series Ultra HD Smart LED TV UA55AUE65AKXXL (Black)"
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -381,30 +426,7 @@
                         android:layout_marginLeft="10dp"
                         android:text="Buy now" />
                 </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="20dp"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="20dp"
-                        android:src="@drawable/ic_baseline_star_24"/>
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="20dp"
-                        android:src="@drawable/ic_baseline_star_24"/>
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="20dp"
-                        android:src="@drawable/ic_baseline_star_24"/>
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="20dp"
-                        android:src="@drawable/ic_baseline_star_24"/>
 
-
-
-                </LinearLayout>
             </LinearLayout>
 
         </TableRow>
@@ -421,7 +443,7 @@
                     android:layout_height="120dp"
                     android:layout_marginBottom="5dp"
                     android:layout_marginLeft="6dp"
-                    android:src="@drawable/ac6"/>
+                    android:src="@drawable/tv5"/>
 
             </LinearLayout>
 
@@ -440,7 +462,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:textSize="12dp"
-                    android:text="Panasonic 1.5 Ton 5 Star Wi-Fi Inverter Smart Split AC (Copper Condenser, 7 in 1 Convertible with additional "
+                    android:text="Acer 139 cm (55 inches) H Series 4K Ultra HD Android Smart LED TV AR55AR2851UDPRO (Black)"
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -474,7 +496,6 @@
 
         </TableRow>
 
-
         <TableRow>
             <LinearLayout
                 android:layout_width="100dp"
@@ -487,7 +508,7 @@
                     android:layout_height="120dp"
                     android:layout_marginBottom="5dp"
                     android:layout_marginLeft="6dp"
-                    android:src="@drawable/ac7"/>
+                    android:src="@drawable/tv6"/>
 
             </LinearLayout>
 
@@ -506,7 +527,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:textSize="12dp"
-                    android:text="Daikin 1.5 Ton 5 Star Inverter Split AC (Copper, PM 2.5 Filter, 2022 Model, MTKM50U, White)"
+                    android:text="Acer 139 cm (55 inches) H Series 4K Ultra HD Android Smart LED TV AR55AR2851UDPRO (Black)"
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -522,7 +543,7 @@
                         android:layout_margin="5dp"
 
 
-                        android:text="₹69,000"
+                        android:text="₹42,000"
                         android:textColor="@color/black"
                         android:textSize="20dp">
 
@@ -540,6 +561,70 @@
 
         </TableRow>
 
+        <TableRow>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@drawable/shape3"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/tv7"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="120dp"
+                android:layout_gravity="right|top"
+                android:background="@drawable/shape3"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:id="@+id/product_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12dp"
+                    android:text="OnePlus 138.7 cm (55 inches) U Series 4K LED Smart Android TV 55U1S (Black)"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+
+
+                        android:text="₹49,000"
+                        android:textColor="@color/black"
+                        android:textSize="20dp">
+
+
+                    </TextView>
+
+                    <Button
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Buy now" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </TableRow>
 
 
 
