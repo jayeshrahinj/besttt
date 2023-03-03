@@ -1,28 +1,507 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/shape"
-    tools:context=".earphoneActivity">
+    android:fillViewport="true">
 
-    <TextView
-        android:id="@+id/t2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="136dp"
-        android:layout_marginEnd="155dp"
-        android:gravity="center"
-        android:text="Earphone"
-        android:textColor="#0D0C0C"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.419" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <!-- everything you already have -->
+
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@color/black">
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="Earphone"
+
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:background="@drawable/shape3"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/earphone"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="220dp"
+                android:layout_height="120dp"
+                android:layout_gravity="right|top"
+                android:background="@drawable/shape3"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/product_name1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12dp"
+                    android:text="boAt Rockerz 255 Pro+ in-Ear Bluetooth Neckband with Upto 40 Hours Playback, ASAP Charge, IPX7, Dual Pairing"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+
+
+                        android:text=" ₹699"
+                        android:textColor="@color/black"
+                        android:textSize="20dp">
+
+
+                    </TextView>
+
+                    <Button
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Buy now" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+
+                        android:src="@drawable/ic_baseline_star_24" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@drawable/shape3"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/earphone1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="120dp"
+                android:layout_gravity="right|top"
+                android:background="@drawable/shape3"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/product_name2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12dp"
+                    android:text="Canon EOS Rebel T7 DSLR Camera with 18-55mm Lens | Built-in Wi-Fi | 24.1 MP CMOS Sensor | DIGIC 4+ Image Processor and Full HD Videos"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+
+
+                        android:text=" ₹60,990"
+                        android:textColor="@color/black"
+                        android:textSize="20dp">
+
+
+                    </TextView>
+
+                    <Button
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Buy now" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@drawable/shape3"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/camera1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="280dp"
+                android:layout_height="120dp"
+                android:layout_gravity="right|top"
+                android:background="@drawable/shape3"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:id="@+id/product_name3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12dp"
+                    android:text="Canon EOS M50 Mark II + EF-M 15-45mm is STM Kit Black
+"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+
+
+                        android:text=" ₹45,000"
+                        android:textColor="@color/black"
+                        android:textSize="20dp">
+
+
+                    </TextView>
+
+                    <Button
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Buy now" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@drawable/shape3"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/camera2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="120dp"
+                android:layout_gravity="right|top"
+                android:background="@drawable/shape3"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:id="@+id/product_name4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12dp"
+                    android:text="Canon PowerShot Digital Camera [G7 X Mark II] with Wi-Fi & NFC, LCD Screen, and 1-inch Sensor - Black, 100-1066C001"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+
+
+                        android:text=" ₹35,000"
+                        android:textColor="@color/black"
+                        android:textSize="20dp">
+
+
+                    </TextView>
+
+                    <Button
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Buy now" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_half_24"/>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@drawable/shape3"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/camera3"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="120dp"
+                android:layout_gravity="right|top"
+                android:background="@drawable/shape3"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:id="@+id/product_name5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12dp"
+                    android:text="Canon PowerShot Vlogging Camera [G7 X Mark III] 4K Video Streaming Camera, Vertical 4K Video Support with Wi-Fi, NFC and 3.0-inch Touch Tilt LCD, Black"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+
+
+                        android:text=" ₹69,000"
+                        android:textColor="@color/black"
+                        android:textSize="20dp">
+
+
+                    </TextView>
+
+                    <Button
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Buy now" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@drawable/shape3"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/camera"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="120dp"
+                android:layout_gravity="right|top"
+                android:background="@drawable/shape3"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:id="@+id/product_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12dp"
+                    android:text="Canon PowerShot A4000 is 16.0 MP Digital Camera with 8X Optical Image Stabilized Zoom 28mm Wide-Angle Lens with 720p"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+
+
+                        android:text="₹39,000"
+                        android:textColor="@color/black"
+                        android:textSize="20dp">
+
+
+                    </TextView>
+
+                    <Button
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Buy now" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </TableRow>
+
+
+
+
+    </TableLayout>
+</ScrollView>
